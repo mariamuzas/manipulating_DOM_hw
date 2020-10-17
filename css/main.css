@@ -1,0 +1,14 @@
+#new-hit-form {
+    margin: 3% 40% 3% 5%;
+
+}
+
+#inputs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+#list {
+    margin: 3% 40% 3% 5%;
+}
