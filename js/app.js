@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
    deleteAll.addEventListener('click', handleDeleteButton);
 });
 
+
 const handleForm = (event) => {
     event.preventDefault();
 

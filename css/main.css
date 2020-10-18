@@ -1,14 +1,44 @@
-#new-hit-form {
-    margin: 3% 40% 3% 5%;
+body{
+    /* height: 93vh; */
+    background-image: url(../css/images/SnBo3P.jpg);
+    background-size: 80%;
+    /* color: white; */
+    font-family: 'Boogaloo', cursive;
+}
 
+#new-hit-form {
+    margin: 3% 20% 3% 5%;
 }
 
 #inputs {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 3%;
+    font-size: 25px;
+    font-weight: bolder
 }
 
 #list {
-    margin: 3% 40% 3% 5%;
+    margin: 3% 20% 10% 10%;
 }
+
+h1 {
+    font-size: 60px;
+    text-shadow:  1px 1px gray;
+}
+
+#save, #delete-button{
+    border: 1px ridge gray;
+    background-color: gainsboro;
+    font-family: 'Boogaloo', cursive;
+    font-size: 14px;
+    color: blue;
+}
+
+input, select {
+    border: 1px groove blue;
+    background-color: lightBlue;
+    font-family: 'Boogaloo', cursive;
+    font-size: 15px;
+ }
+
